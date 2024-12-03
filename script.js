@@ -3,7 +3,13 @@ function revealLink() {
     // Change the content of the message to reveal the next step
     document.getElementById('message').innerHTML = `
         <h1>Welcome to the Echo</h1>
- <p id="hint">"I am the sum of my digits. The first is twice the second, and the third is one less than the second. The fourth is twice the third."</p>
+        <h3 id="hint">7/>
+        <h3 id="hint">1/>
+        <h3 id="hint">2/>
+        <h3 id="hint">4/>
+
+
+
         <input type="text" id="codeInput" placeholder="Enter code..." />
         <button onclick="checkCode()">Submit</button>
     `;
