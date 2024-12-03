@@ -5,10 +5,10 @@ function revealLink() {
         <h1>Welcome to the Echo</h1>
         <p id="hint">The code is hidden in these fragments. Piece them together:</p>
         <div id="hintFragment">
-            <h3>7</h3>
-            <h3>4</h3>
-            <h3>2</h3>
-            <h3>1</h3>
+            <h3>7<h3
+            <h3>4<h3
+            <h3>2<h3
+            <h3>1<h3
         </div>
 
         <input type="text" id="codeInput" placeholder="Enter code..." />
