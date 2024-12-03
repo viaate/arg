@@ -1,7 +1,15 @@
-#hint {
-    font-style: italic;
-    color: #000;
-    margin-top: 20px;
+#hintFragment h3 {
+    font-size: 2.5em;
+    margin: 10px 0;
+    color: #000; /* Make the numbers black */
+    user-select: text; /* Ensure the user can highlight the text */
+    background-color: #333; /* Set a dark background to make the black text less visible unless highlighted */
+    padding: 10px;
+    display: inline-block; /* Keep them inline to look like fragments of a code */
+}
+
+#hintFragment h3:hover {
+    background-color: #444; /* Darker on hover to make it more interactive */
 }
 
 body {
