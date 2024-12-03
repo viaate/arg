@@ -1,3 +1,9 @@
+#hint {
+    font-style: italic;
+    color: #888;
+    margin-top: 20px;
+}
+
 body {
     font-family: 'Courier New', Courier, monospace;
     background-color: #000;
