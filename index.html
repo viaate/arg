@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MSCHF ARG - Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the MSCHF ARG</h1>
+        <p id="mystery-text">To proceed, you need to solve a puzzle. Can you crack the password?</p>
+    </header>
+
+    <section id="login-page">
+        <input type="text" id="password-input" placeholder="Enter password">
+        <button id="submit-btn">Login</button>
+        <p id="feedback"></p>
+    </section>
+
+    <section id="hidden-section" style="display: none;">
+        <p>You cracked the password! Here's a clue for the next step: "Look under the hood."</p>
+        <button onclick="revealCode()">Reveal next clue</button>
+    </section>
+
+    <footer>
+        <p>Created by MSCHF ARG Team</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
